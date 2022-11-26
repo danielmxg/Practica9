@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    position: relative;
+    background-color: rgb(225, 171, 236);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 253, 253, 0.829);
+}
+header
+{
+    background: url('../img/Banner.jpg'); 
+}
+head h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+#Titulo
+{
+    display: inline-block;
+}
+#Logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 180px;
+}
+/* Menu de navegación */
+nav
+{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    background-color: rgba(195, 66, 255, 0.747);
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    color: rgb(244, 255, 87);
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(252, 191, 80);
+}
+
+/* Contenido */
+img{
+    height: 130px;
+}
+article{
+    padding: 10px;
+}
+section{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 65%;
+}
+aside{
+    padding: 5px;
+    font-style: italic;
+    float: right;
+    width: 28%;
+    border: 2px solid;
+    border: 3px solid rgb(128, 255, 192);
+}
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border-top: 5px solid rgba(82, 210, 219, 0.63);
+    background-color: rgba(0, 114, 245, 0.322);
+    color: rgb(49, 255, 255);
+    text-align: center;
+    padding-top: 10px;;
+
+}
+.piePagina {
+    width: 100%;
+    height: 100px;
+    background: #150063;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    box-sizing: border-box;
+    border-top: 5px solid rgb(5, 22, 255);
+    background-color: rgba(0, 38, 82, 0.685);
+    color: rgb(0, 196, 196);
+    text-align: center;
+    padding-top: 10px;;
+}
